@@ -1,0 +1,104 @@
+
+    p{
+        margin: 10px;
+    }
+    body, html{
+        height: 100%;
+        margin: 0;
+    }
+        .bg{
+            background-image:url("hogwarts-desktop-wallpaper.jpg");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+
+        }
+
+        .container{
+            background-color: black;
+            width: 400px;
+            height: 500px;
+            display: inline-block;
+            margin: 50px;
+            padding-left: 20px;
+            border-radius: 20px;
+            position: absolute;
+            left: 30%;
+            top: 5%;
+          
+    
+        }
+
+        .title{
+            text-align: center;
+        }
+        .form{
+            display: inline-block;
+            color: blanchedalmond;
+        }
+         .fields span{
+            color: blanchedalmond;
+            text-align: left;
+            font-size:larger;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 20px;
+            
+            
+         }
+        
+        .area{
+            margin-left: 10px;
+            margin-bottom: 5px;
+            width: 300px;
+            height: 30px;
+            border-radius:5px;
+        }
+
+        .btn{
+            display: block;
+            width: 150px;
+            height: 35px;
+            border-radius: 5px;
+            background-color:maroon;
+            color: black;
+            border:yellow;
+            position: relative;
+            left: 28%;
+            text-align: center;
+            font-size:large;
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+
+        .btn:hover{
+            display: block;
+            width: 150px;
+            height: 35px;
+            border-radius: 5px;
+            background-color:red;
+            color:black;
+            border:yellow;
+            position: relative;
+            left: 28%;
+            text-align: center;
+            font-size:large;
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+        .form a{
+            text-decoration: none;
+            color: purple;
+            display: block;
+            
+            
+        }
+
+        .form a:hover{
+            text-decoration: none;
+            color:rebeccapurple;
+            display: block;
+            
+            
+        }
